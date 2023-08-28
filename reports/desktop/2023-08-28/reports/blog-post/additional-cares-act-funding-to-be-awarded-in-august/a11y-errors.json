@@ -1,0 +1,108 @@
+[
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-232-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,1,DIV,0,DIV,0,DIV,0,IFRAME",
+            "selector": "div.easy_social_box > div.easy_social-widget > div#___plusone_0 > iframe#I0_1604423532719",
+            "boundingRect": {
+              "top": -8989,
+              "bottom": -8839,
+              "left": -10000,
+              "right": -9550,
+              "width": 450,
+              "height": 150
+            },
+            "snippet": "<iframe data-gapiattached=\"true\" frameborder=\"0\" hspace=\"0\" id=\"I0_1604423532719\" marginheight=\"0\" marginwidth=\"0\" name=\"I0_1604423532719\" ng-non-bindable=\"\" scrolling=\"no\" src=\"https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;size=tall&amp;annot…\" style=\"position:absolute;top:-10000px;width:450px;margin:0px;border-style:none\" tabindex=\"0\" vspace=\"0\" width=\"100%\">",
+            "nodeLabel": "div.easy_social_box > div.easy_social-widget > div#___plusone_0 > iframe#I0_1604423532719",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "29-233-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H5",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h5",
+            "boundingRect": {
+              "top": 1534,
+              "bottom": 1574,
+              "left": 24,
+              "right": 321,
+              "width": 297,
+              "height": 41
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Our mission",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,469 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-232-H5",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,4,FOOTER,0,DIV,0,DIV,0,DIV,0,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H5",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h5",
+            "boundingRect": {
+              "top": 5873,
+              "bottom": 5913,
+              "left": 24,
+              "right": 321,
+              "width": 297,
+              "height": 41
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Our mission",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-233-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,1,TABLE,0,TBODY,0,TR,0,TD,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 693,
+              "bottom": 1075,
+              "left": 21,
+              "right": 280,
+              "width": 259,
+              "height": 382
+            },
+            "snippet": "<img height=\"382\" src=\"https://lh3.googleusercontent.com/7eyGv4nwN9olRNPZIOuiIznOqZxsd9i4uuKE-BnB…\" width=\"259\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-234-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,2,TABLE,0,TBODY,0,TR,0,TD,0,P,1,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 1233,
+              "bottom": 1392,
+              "left": 21,
+              "right": 184,
+              "width": 163,
+              "height": 159
+            },
+            "snippet": "<img height=\"159\" src=\"https://lh4.googleusercontent.com/PBAFtf2VECinsuHlRyocrTyCEeGF-uA1T61zETpu…\" width=\"163\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-235-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,2,TABLE,0,TBODY,0,TR,0,TD,0,P,1,SPAN,0,SPAN,1,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 1238,
+              "bottom": 1386,
+              "left": 198,
+              "right": 337,
+              "width": 139,
+              "height": 148
+            },
+            "snippet": "<img height=\"148\" src=\"https://lh3.googleusercontent.com/QYl8R_qgBqizJHvWOpte1r0G2G8AT0F7CYxAkkS_…\" width=\"139\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-236-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,2,TABLE,0,TBODY,0,TR,0,TD,1,P,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 1404,
+              "bottom": 1678,
+              "left": 21,
+              "right": 324,
+              "width": 303,
+              "height": 274
+            },
+            "snippet": "<img height=\"274\" src=\"https://lh3.googleusercontent.com/kMwRTsgbNtFarpjxLXS4HxzW4-MbgV1FXFvbqX8-…\" width=\"303\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-237-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,3,TABLE,0,TBODY,0,TR,1,TD,0,P,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 1773,
+              "bottom": 1908,
+              "left": 591,
+              "right": 770,
+              "width": 179,
+              "height": 135
+            },
+            "snippet": "<img height=\"135\" src=\"https://lh3.googleusercontent.com/qKyJcLo07ZH8YPL-9kju4wuqL2s2e7F7o7EtmuEk…\" width=\"179\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-238-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,3,TABLE,0,TBODY,0,TR,1,TD,0,P,3,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 1908,
+              "bottom": 2227,
+              "left": 591,
+              "right": 845,
+              "width": 254,
+              "height": 319
+            },
+            "snippet": "<img height=\"319\" src=\"https://lh5.googleusercontent.com/e1gMsyfoIr02IcQ1p2JwFKfzqwj9F9wmxrAaB2T0…\" width=\"254\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-239-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,P,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 2251,
+              "bottom": 2482,
+              "left": 21,
+              "right": 223,
+              "width": 202,
+              "height": 231
+            },
+            "snippet": "<img height=\"231\" src=\"https://lh4.googleusercontent.com/gUhZ_-H-z7mbihxxJbXDhQshSFuEHmPm_iGXggHC…\" width=\"202\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-240-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,4,TABLE,0,TBODY,0,TR,0,TD,0,P,2,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 2482,
+              "bottom": 2635,
+              "left": 21,
+              "right": 225,
+              "width": 204,
+              "height": 153
+            },
+            "snippet": "<img height=\"153\" src=\"https://lh3.googleusercontent.com/dvK5njuruphih7oCXC6HQI_8ttNrBnnaHzpG8oN0…\" width=\"204\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-241-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,5,TABLE,0,TBODY,0,TR,0,TD,3,P,2,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 3055,
+              "bottom": 3213,
+              "left": 117,
+              "right": 275,
+              "width": 158,
+              "height": 158
+            },
+            "snippet": "<img height=\"158\" src=\"https://lh5.googleusercontent.com/BMygZee_UiKFyDYLToa1xK431Ww7UV-st9QsnJyt…\" width=\"158\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-242-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,5,TABLE,0,TBODY,0,TR,0,TD,3,P,2,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,1,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 3055,
+              "bottom": 3213,
+              "left": 309,
+              "right": 467,
+              "width": 158,
+              "height": 158
+            },
+            "snippet": "<img height=\"158\" src=\"https://lh6.googleusercontent.com/vGBdAmbRVvTU5nklUqUROT4iS24fTcpW7AkIwqB-…\" width=\"158\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-243-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,5,TABLE,0,TBODY,0,TR,1,TD,0,P,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 2659,
+              "bottom": 2831,
+              "left": 546,
+              "right": 719,
+              "width": 173,
+              "height": 172
+            },
+            "snippet": "<img height=\"172.3239559577422\" src=\"https://lh6.googleusercontent.com/uj06kciGyjFTWffghtvd_GIbr8s8B9ROlknfeJ4t…\" width=\"173\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-244-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,5,TABLE,0,TBODY,0,TR,1,TD,2,P,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 2837,
+              "bottom": 3117,
+              "left": 539,
+              "right": 815,
+              "width": 276,
+              "height": 280
+            },
+            "snippet": "<img height=\"280.14454717476326\" src=\"https://lh5.googleusercontent.com/k2aLMj8xwWPIzRvu4yKJT9ZQQBw5nfieBx2RD-e0…\" style=\"margin-left:-21px; margin-top:-42px\" width=\"276.2030905077263\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-245-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,6,TABLE,0,TBODY,0,TR,0,TD,0,P,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 3237,
+              "bottom": 3415,
+              "left": 21,
+              "right": 258,
+              "width": 237,
+              "height": 178
+            },
+            "snippet": "<img height=\"178\" src=\"https://lh4.googleusercontent.com/b3MWGsgIIQ-7mSMMn0J9Jxazp2WMC7nqVE1ki6H1…\" width=\"237\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-246-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,6,TABLE,0,TBODY,0,TR,0,TD,0,P,2,STRONG,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 3415,
+              "bottom": 3593,
+              "left": 21,
+              "right": 258,
+              "width": 237,
+              "height": 178
+            },
+            "snippet": "<img height=\"178\" src=\"https://lh3.googleusercontent.com/9OdGu6TDj3BkE1Nkg-4OKPpIpspydkdxWcZ7MPXN…\" width=\"237\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-247-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,7,TABLE,0,TBODY,0,TR,1,TD,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 3681,
+              "bottom": 3851,
+              "left": 645,
+              "right": 815,
+              "width": 170,
+              "height": 170
+            },
+            "snippet": "<img height=\"170\" src=\"https://lh5.googleusercontent.com/PInUB-rKyS2NjAkCB-_UIRKVBldgFHiUBgzvpFpk…\" width=\"170\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-248-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,9,TABLE,0,TBODY,0,TR,1,TD,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 4689,
+              "bottom": 4947,
+              "left": 491,
+              "right": 697,
+              "width": 206,
+              "height": 258
+            },
+            "snippet": "<img height=\"258\" src=\"https://lh4.googleusercontent.com/d-ZCuMtngZWVf9fVcqiODwXLrHjoGaMGUTagDq0O…\" width=\"206\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-249-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,9,TABLE,0,TBODY,0,TR,1,TD,0,SPAN,0,SPAN,1,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 4702,
+              "bottom": 4934,
+              "left": 707,
+              "right": 881,
+              "width": 174,
+              "height": 232
+            },
+            "snippet": "<img height=\"232\" src=\"https://lh5.googleusercontent.com/Vk6TFrjC35siaOTdF69TQ2GhSxpNeqN5YhVmUGKW…\" width=\"174\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-250-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,10,TABLE,0,TBODY,0,TR,0,TD,0,P,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 5061,
+              "bottom": 5267,
+              "left": 21,
+              "right": 227,
+              "width": 206,
+              "height": 206
+            },
+            "snippet": "<img height=\"206\" src=\"https://lh6.googleusercontent.com/yLd99kR-RbBZXCCbJY7kW4A2MuRhe-0kPpDDzgwo…\" width=\"206\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-228-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,10,TABLE,0,TBODY,0,TR,0,TD,0,P,3,SPAN,0,SPAN,2,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 5267,
+              "bottom": 5405,
+              "left": 21,
+              "right": 170,
+              "width": 149,
+              "height": 138
+            },
+            "snippet": "<img height=\"138\" src=\"https://lh3.googleusercontent.com/LhFlToMGjpxWFl5cd1CcG_vKp0Efuzywya3rhzTs…\" width=\"149\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-251-IMG",
+            "path": "1,HTML,1,BODY,0,DIV,2,DIV,3,DIV,0,MAIN,0,DIV,2,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,10,TABLE,0,TBODY,0,TR,0,TD,0,P,6,SPAN,0,SPAN,1,SPAN,0,SPAN,0,SPAN,0,SPAN,0,STRONG,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,SPAN,0,IMG",
+            "selector": "span > span > span > img",
+            "boundingRect": {
+              "top": 5405,
+              "bottom": 5568,
+              "left": 21,
+              "right": 178,
+              "width": 157,
+              "height": 163
+            },
+            "snippet": "<img height=\"163\" src=\"https://lh5.googleusercontent.com/pTAOChrO5PTOMVVbgd4TtB7uXQn80BOWVOL6uu1_…\" width=\"157\">",
+            "nodeLabel": "span > span > span > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 20
+  }
+]
