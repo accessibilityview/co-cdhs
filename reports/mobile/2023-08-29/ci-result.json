@@ -1,0 +1,802 @@
+[
+  {
+    "path": "/",
+    "score": 0.9
+  },
+  {
+    "path": "/2020-behavioral-health-needs",
+    "score": 0.93
+  },
+  {
+    "path": "/24-hour-appeal-panel",
+    "score": 0.94
+  },
+  {
+    "path": "/2generation-opportunities-pilot-program",
+    "score": 0.95
+  },
+  {
+    "path": "/988-crisis-hotline-enterprise-board-of-directors",
+    "score": 0.95
+  },
+  {
+    "path": "/about-cdhs",
+    "score": 0.92
+  },
+  {
+    "path": "/about-cdhs/cdhs-family-and-community-engagement",
+    "score": 0.9
+  },
+  {
+    "path": "/about-cdhs/cdhs-news",
+    "score": 0.95
+  },
+  {
+    "path": "/about-cdhs/featured-initiatives",
+    "score": 0.94
+  },
+  {
+    "path": "/about-cdhs/featured-initiatives/two-generation-approach-in-colorado",
+    "score": 0.95
+  },
+  {
+    "path": "/about-cdhs/forms-policies-and-data/data",
+    "score": 0.91
+  },
+  {
+    "path": "/about-cdhs/forms-policies-and-data/policies",
+    "score": 0.94
+  },
+  {
+    "path": "/about-cdhs/forms-policies-data-and-records-requests",
+    "score": 0.92
+  },
+  {
+    "path": "/about-cdhs/forms-policies-data-and-records-requests/forms",
+    "score": 0.94
+  },
+  {
+    "path": "/about-cdhs/news/cdhs-press-releases",
+    "score": 0.95
+  },
+  {
+    "path": "/about-cdhs/news/cdhs-publications-and-reports",
+    "score": 0.92
+  },
+  {
+    "path": "/about-cdhs/news/cdhs-social-media",
+    "score": 0.93
+  },
+  {
+    "path": "/about-cdhs/performance-outcomes-and-reviews",
+    "score": 0.9
+  },
+  {
+    "path": "/about-cdhs/performance-outcomes-and-reviews/cdhs-performance-plan",
+    "score": 0.93
+  },
+  {
+    "path": "/about-cdhs/performance-outcomes-and-reviews/ombudsman-offices",
+    "score": 0.94
+  },
+  {
+    "path": "/about-cdhs/performance-outcomes-and-reviews/ombudsman-offices/long-term-care-ombudsman",
+    "score": 0.94
+  },
+  {
+    "path": "/about-cdhs/performance-outcomes-and-reviews/performance-management",
+    "score": 0.93
+  },
+  {
+    "path": "/about-cdhs/performance-outcomes-and-reviews/performance-management/county-performance-unit",
+    "score": 0.92
+  },
+  {
+    "path": "/about-cdhs/performance-outcomes-and-reviews/performance-management/performance-strategy",
+    "score": 0.94
+  },
+  {
+    "path": "/administrative-review-division-steering-committee",
+    "score": 0.97
+  },
+  {
+    "path": "/adoption",
+    "score": 0.93
+  },
+  {
+    "path": "/adoption-intermediary-commission",
+    "score": 0.94
+  },
+  {
+    "path": "/adoption-steering-committee",
+    "score": 0.95
+  },
+  {
+    "path": "/adult-protective-services-appeal-request-form",
+    "score": 0.93
+  },
+  {
+    "path": "/adult-protective-services-task-group",
+    "score": 0.94
+  },
+  {
+    "path": "/alzheimers-and-dementia-care-at-veterans-community-living-centers",
+    "score": 0.94
+  },
+  {
+    "path": "/aps",
+    "score": 0.9
+  },
+  {
+    "path": "/ARD",
+    "score": 0.91
+  },
+  {
+    "path": "/behavioral-health-forms",
+    "score": 0.94
+  },
+  {
+    "path": "/behavioral-health/covid19/telehealth",
+    "score": 0.95
+  },
+  {
+    "path": "/behavioral-health/culturally-informed-inclusive-services",
+    "score": 0.93
+  },
+  {
+    "path": "/behavioral-health/forensic-services",
+    "score": 0.92
+  },
+  {
+    "path": "/behavioral-health/involuntary-mental-health-treatment/resources",
+    "score": 0.95
+  },
+  {
+    "path": "/behavioral-health/mental-health-institutes",
+    "score": 0.95
+  },
+  {
+    "path": "/benefits-assistance",
+    "score": 0.93
+  },
+  {
+    "path": "/benefits-assistance/cash-assistance",
+    "score": 0.93
+  },
+  {
+    "path": "/benefits-assistance/cash-assistance/adult-financial-programs",
+    "score": 0.93
+  },
+  {
+    "path": "/benefits-assistance/employment-assistance",
+    "score": 0.92
+  },
+  {
+    "path": "/benefits-assistance/employment-assistance/colorado-employment-first",
+    "score": 0.92
+  },
+  {
+    "path": "/benefits-assistance/employment-assistance/senior-community-service-employment-program",
+    "score": 0.94
+  },
+  {
+    "path": "/benefits-assistance/food-assistance",
+    "score": 0.93
+  },
+  {
+    "path": "/benefits-assistance/food-assistance/food-distribution-programs",
+    "score": 0.93
+  },
+  {
+    "path": "/benefits-assistance/food-assistance/food-distribution-programs/child-nutrition-and-schools",
+    "score": 0.9
+  },
+  {
+    "path": "/benefits-assistance/food-assistance/food-distribution-programs/disaster-feeding-and-commodity",
+    "score": 0.92
+  },
+  {
+    "path": "/benefits-assistance/food-assistance/food-distribution-programs/food-distribution-household-programs",
+    "score": 0.92
+  },
+  {
+    "path": "/benefits-assistance/food-assistance/p-ebt/faqs-about-p-ebt",
+    "score": 0.91
+  },
+  {
+    "path": "/benefits-assistance/food-assistance/p-ebt/more-food-resources",
+    "score": 0.92
+  },
+  {
+    "path": "/benefits-assistance/food-assistance/p-ebt/p-ebt-outreach-materials",
+    "score": 0.92
+  },
+  {
+    "path": "/benefits-assistance/food-assistance/p-ebt/use-your-p-ebt-benefits",
+    "score": 0.91
+  },
+  {
+    "path": "/benefits/employment-assistance/senior-community-service-employment-program",
+    "score": 0.94
+  },
+  {
+    "path": "/blog-post/accessible-culturally-responsive-and-trauma-informed-goal-for-ffy21",
+    "score": 0.94
+  },
+  {
+    "path": "/blog-post/community-listening-circles-engaging-the-qtbipoc/qtpoc/lgbtqi-community-impacted-by",
+    "score": 0.94
+  },
+  {
+    "path": "/blog-post/covid-19-has-taken-a-toll-behavioral-health-providers-can-must-play-an-important-role",
+    "score": 0.94
+  },
+  {
+    "path": "/blog-post/every-client/volunteer-is-new-starting-october-1st",
+    "score": 0.94
+  },
+  {
+    "path": "/blog-post/free-webinar-11/6-trauma-informed-advocacy-for-deaf-survivors",
+    "score": 0.91
+  },
+  {
+    "path": "/blog-post/open-for-comment-obh-ffy-2020-synar-report",
+    "score": 0.95
+  },
+  {
+    "path": "/blog-post/qtbipoc-listening-circle-report-is-here",
+    "score": 0.94
+  },
+  {
+    "path": "/blog-post/seeking-a-parent-representative-to-serve-on-the-colorado-child-support-commission",
+    "score": 0.94
+  },
+  {
+    "path": "/board-of-commissioners-of-veterans-community-living-centers",
+    "score": 0.94
+  },
+  {
+    "path": "/bruce-mccandless-veterans-community-living-center-at-florence-is-hiring",
+    "score": 0.93
+  },
+  {
+    "path": "/capta-and-beyond",
+    "score": 0.91
+  },
+  {
+    "path": "/career-openings",
+    "score": 0.94
+  },
+  {
+    "path": "/careers",
+    "score": 0.91
+  },
+  {
+    "path": "/careers/the-colorado-department-of-human-services-is-hiring",
+    "score": 0.93
+  },
+  {
+    "path": "/ccoa",
+    "score": 0.9
+  },
+  {
+    "path": "/cdhs-a-to-z",
+    "score": 0.93
+  },
+  {
+    "path": "/cdhs-county-portal",
+    "score": 0.92
+  },
+  {
+    "path": "/cdhs-emblem",
+    "score": 0.93
+  },
+  {
+    "path": "/cdhs-employee-access",
+    "score": 0.94
+  },
+  {
+    "path": "/cdhs-encourages-coloradans-to-apply-for-leap-on-national-energy-assistance-day",
+    "score": 0.95
+  },
+  {
+    "path": "/cdhs-equity-action-plan",
+    "score": 0.92
+  },
+  {
+    "path": "/cdhs-facility-locations",
+    "score": 0.94
+  },
+  {
+    "path": "/cdhs-hiring-dining-staff",
+    "score": 0.93
+  },
+  {
+    "path": "/cdhs-is-hiring-client-care-aides",
+    "score": 0.94
+  },
+  {
+    "path": "/cdhs-is-hiring-in-our-finance-and-accounting-department",
+    "score": 0.94
+  },
+  {
+    "path": "/cdhs-is-hiring-office-staff",
+    "score": 0.93
+  },
+  {
+    "path": "/cdhs-legislative-affairs",
+    "score": 0.93
+  },
+  {
+    "path": "/cdhs-strategic-plan",
+    "score": 0.92
+  },
+  {
+    "path": "/chafee-funding-methodology-work-group",
+    "score": 0.95
+  },
+  {
+    "path": "/chafee-modernization-task-group",
+    "score": 0.92
+  },
+  {
+    "path": "/child-and-adult-mistreatment-dispute-review-section",
+    "score": 0.93
+  },
+  {
+    "path": "/child-and-family-services-review-oversight-committee",
+    "score": 0.94
+  },
+  {
+    "path": "/child-fatality-reviews",
+    "score": 0.93
+  },
+  {
+    "path": "/child-protection-task-group",
+    "score": 0.95
+  },
+  {
+    "path": "/child-support-commission",
+    "score": 0.95
+  },
+  {
+    "path": "/child-trafficking-in-colorado",
+    "score": 0.91
+  },
+  {
+    "path": "/child-welfare-allocation-committee",
+    "score": 0.94
+  },
+  {
+    "path": "/child-welfare-and-domestic-violence-task-group",
+    "score": 0.95
+  },
+  {
+    "path": "/child-welfare-appeal-request-form",
+    "score": 0.93
+  },
+  {
+    "path": "/child-welfare-core-services-program",
+    "score": 0.95
+  },
+  {
+    "path": "/child-welfare-family-advisory-council",
+    "score": 0.94
+  },
+  {
+    "path": "/child-welfare-placement-services",
+    "score": 0.93
+  },
+  {
+    "path": "/child-welfare-prevention-task-group",
+    "score": 0.94
+  },
+  {
+    "path": "/child-welfare-sub-policy-advisory-committee",
+    "score": 0.95
+  },
+  {
+    "path": "/childrens-justice-act-task-force",
+    "score": 0.93
+  },
+  {
+    "path": "/cisu",
+    "score": 0.94
+  },
+  {
+    "path": "/civil-forensic-mental-health",
+    "score": 0.93
+  },
+  {
+    "path": "/CMHHIFL",
+    "score": 0.92
+  },
+  {
+    "path": "/CMHHIP",
+    "score": 0.92
+  },
+  {
+    "path": "/cmhifl-hiring",
+    "score": 0.94
+  },
+  {
+    "path": "/cmhip-hiring",
+    "score": 0.94
+  },
+  {
+    "path": "/collaborative-management-program",
+    "score": 0.93
+  },
+  {
+    "path": "/collaborative-management-program-statewide-steering-committee",
+    "score": 0.95
+  },
+  {
+    "path": "/colorado-chafee-program",
+    "score": 0.95
+  },
+  {
+    "path": "/colorado-child-abuse-and-neglect-hotline-reporting-system",
+    "score": 0.94
+  },
+  {
+    "path": "/colorado-commission-for-the-deaf-hard-of-hearing-and-deaf-blind-citizen-council",
+    "score": 0.94
+  },
+  {
+    "path": "/colorado-commission-for-the-deaf-hard-of-hearing-and-deaf-blind-grant-program-committee",
+    "score": 0.94
+  },
+  {
+    "path": "/colorado-commission-for-the-deaf-hard-of-hearing-and-deafblind-grant-program-committee",
+    "score": 0.92
+  },
+  {
+    "path": "/colorado-commission-for-the-deaf-hard-of-hearing-and-deafblind-legal-auxiliary-services",
+    "score": 0.94
+  },
+  {
+    "path": "/colorado-commission-on-aging-subcommittees",
+    "score": 0.93
+  },
+  {
+    "path": "/colorado-commission-on-low-income-energy-assistance",
+    "score": 0.94
+  },
+  {
+    "path": "/colorado-compass",
+    "score": 0.95
+  },
+  {
+    "path": "/colorado-domestic-abuse-fund",
+    "score": 0.95
+  },
+  {
+    "path": "/colorado-ebt",
+    "score": 0.9
+  },
+  {
+    "path": "/colorado-foster-youth-successful-transition-to-adulthood-grant-program-advisory-board",
+    "score": 0.94
+  },
+  {
+    "path": "/colorado-interagency-coordinating-council",
+    "score": 0.94
+  },
+  {
+    "path": "/colorado-schools-participating-in-nslp",
+    "score": 0.94
+  },
+  {
+    "path": "/colorado-trails-user-group",
+    "score": 0.95
+  },
+  {
+    "path": "/colorado-works",
+    "score": 0.92
+  },
+  {
+    "path": "/colorado-works-allocation-committee",
+    "score": 0.94
+  },
+  {
+    "path": "/colorado-works-tanf-leavers-survey",
+    "score": 0.92
+  },
+  {
+    "path": "/colorado-youth-detention-continuum-cydc-advisory-board-and-interstate-compact-for-juveniles-state",
+    "score": 0.93
+  },
+  {
+    "path": "/colorados-mental-health-hospital-in-fort-logan-is-hiring-nurses",
+    "score": 0.94
+  },
+  {
+    "path": "/contact-cdhs",
+    "score": 0.9
+  },
+  {
+    "path": "/contact-your-county",
+    "score": 0.91
+  },
+  {
+    "path": "/continuous-quality-improvement-workgroup",
+    "score": 0.95
+  },
+  {
+    "path": "/core-services-coordinators",
+    "score": 0.93
+  },
+  {
+    "path": "/CoSHI",
+    "score": 0.95
+  },
+  {
+    "path": "/cp-about-cdhs-and-contacts",
+    "score": 0.93
+  },
+  {
+    "path": "/cp-boards-and-commissions",
+    "score": 0.93
+  },
+  {
+    "path": "/cp-finance-legislation-audits",
+    "score": 0.93
+  },
+  {
+    "path": "/cp-joint-agency-interoperability",
+    "score": 0.91
+  },
+  {
+    "path": "/cp-offices-and-divisions",
+    "score": 0.91
+  },
+  {
+    "path": "/cp-training-and-resources",
+    "score": 0.91
+  },
+  {
+    "path": "/crsp",
+    "score": 0.91
+  },
+  {
+    "path": "/CSFP",
+    "score": 0.88
+  },
+  {
+    "path": "/cwstep",
+    "score": 0.95
+  },
+  {
+    "path": "/data",
+    "score": 0.91
+  },
+  {
+    "path": "/dcfqa",
+    "score": 0.94
+  },
+  {
+    "path": "/dds",
+    "score": 0.93
+  },
+  {
+    "path": "/delivery-of-child-welfare-services-task-force",
+    "score": 0.93
+  },
+  {
+    "path": "/department-of-defense-fresh-fruit-and-vegetable-program",
+    "score": 0.93
+  },
+  {
+    "path": "/differential-response-leadership-council",
+    "score": 0.94
+  },
+  {
+    "path": "/differential-response-program",
+    "score": 0.95
+  },
+  {
+    "path": "/division-of-community-programs",
+    "score": 0.94
+  },
+  {
+    "path": "/division-of-youth-services-and-child-welfare-transition-task-group",
+    "score": 0.95
+  },
+  {
+    "path": "/division-of-youth-services-community-boards",
+    "score": 0.95
+  },
+  {
+    "path": "/doctoral-psychology-internship-at-cmhip",
+    "score": 0.91
+  },
+  {
+    "path": "/doctoral-psychology-internship-at-colorado-mental-health-hospital-in-fort-logan",
+    "score": 0.93
+  },
+  {
+    "path": "/domestic-abuse-statutory-definition-task-force",
+    "score": 0.95
+  },
+  {
+    "path": "/domestic-violence-program-advisory-committee",
+    "score": 0.93
+  },
+  {
+    "path": "/domestic-violence-program-resources-for-funded-programs",
+    "score": 0.94
+  },
+  {
+    "path": "/DSNAP-Boulder",
+    "score": 0.92
+  },
+  {
+    "path": "/dvp",
+    "score": 0.9
+  },
+  {
+    "path": "/dys",
+    "score": 0.93
+  },
+  {
+    "path": "/dys-administrative-services",
+    "score": 0.95
+  },
+  {
+    "path": "/dys-and-the-prison-rape-elimination-act",
+    "score": 0.94
+  },
+  {
+    "path": "/dys-policy-updates",
+    "score": 0.94
+  },
+  {
+    "path": "/dys-publications-reports-and-resources",
+    "score": 0.93
+  },
+  {
+    "path": "/dysqa",
+    "score": 0.95
+  },
+  {
+    "path": "/ebt-discounts",
+    "score": 0.92
+  },
+  {
+    "path": "/edi",
+    "score": 0.93
+  },
+  {
+    "path": "/evidence-based-and-promising-practices-programs",
+    "score": 0.95
+  },
+  {
+    "path": "/executive-director-scheduling-request",
+    "score": 0.92
+  },
+  {
+    "path": "/facilitated-family-engagement",
+    "score": 0.95
+  },
+  {
+    "path": "/facilities-management-is-hiring",
+    "score": 0.93
+  },
+  {
+    "path": "/family-first-prevention-services-act-implementation-team",
+    "score": 0.94
+  },
+  {
+    "path": "/family-voice-council",
+    "score": 0.92
+  },
+  {
+    "path": "/food-distribution-advisory-committee",
+    "score": 0.94
+  },
+  {
+    "path": "/food-pantry-assistance-grant-program",
+    "score": 0.91
+  },
+  {
+    "path": "/former-foster-care-youth-steering-committee",
+    "score": 0.95
+  },
+  {
+    "path": "/forms",
+    "score": 0.94
+  },
+  {
+    "path": "/future-of-aging",
+    "score": 0.92
+  },
+  {
+    "path": "/grand-junction-regional-center-is-hiring",
+    "score": 0.93
+  },
+  {
+    "path": "/guidelines-for-selecting-mental-health-therapies",
+    "score": 0.94
+  },
+  {
+    "path": "/high-quality-parenting-time-task-force",
+    "score": 0.94
+  },
+  {
+    "path": "/hipaa",
+    "score": 0.95
+  },
+  {
+    "path": "/home",
+    "score": 0.9
+  },
+  {
+    "path": "/i-want-to",
+    "score": 0.93
+  },
+  {
+    "path": "/information-for-job-applicants",
+    "score": 0.95
+  },
+  {
+    "path": "/institutional-assessment-review-team",
+    "score": 0.95
+  },
+  {
+    "path": "/interstate-compact-on-the-placement-of-children",
+    "score": 0.95
+  },
+  {
+    "path": "/juvenile-parole-board",
+    "score": 0.93
+  },
+  {
+    "path": "/keeping-kids-safe-and-families-healthy",
+    "score": 0.94
+  },
+  {
+    "path": "/leap",
+    "score": 0.86
+  },
+  {
+    "path": "/legal-assistance-program",
+    "score": 0.92
+  },
+  {
+    "path": "/lifelong-colorado",
+    "score": 0.92
+  },
+  {
+    "path": "/logo-files",
+    "score": 0.92
+  },
+  {
+    "path": "/mandatory-reporting-of-adult-mistreatment",
+    "score": 0.94
+  },
+  {
+    "path": "/medicaid-eligibility-for-child-welfare",
+    "score": 0.92
+  },
+  {
+    "path": "/mental-health-nurses",
+    "score": 0.94
+  },
+  {
+    "path": "/mental-health-transitional-living-homes",
+    "score": 0.93
+  },
+  {
+    "path": "/mindsource-brain-injury-network-colorado-brain-injury-advisory-board",
+    "score": 0.93
+  },
+  {
+    "path": "/news-article/all-in-division-of-youth-services-doubles-down-on-culture-change",
+    "score": 0.95
+  },
+  {
+    "path": "/TEFAP",
+    "score": 0.91
+  }
+]
